@@ -2,7 +2,7 @@
   <div class="flex justify-center" id="about">
     <div class="w-11/12">
       <div class="flex justify-center">
-        <h1 class="text-2xl">من نحن</h1>
+        <h1 class="text-2xl text-blue-900 cairo">من نحن</h1>
       </div>
       <p class="text-gray-600">
         تُعدّ شركة سيجماتك أتوميشن من الشركات الرائدة في مجال قطع غيار أنظمة
@@ -20,4 +20,9 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.cairo {
+  font-family: "Cairo";
+  font-weight: 700;
+}
+</style>
